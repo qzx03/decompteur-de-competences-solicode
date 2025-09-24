@@ -8,7 +8,7 @@ let cC5 = 0;
 let cC6 = 0;
 let cC7 = 0;
 let cC8 = 0;
-
+function MyCounter() {}
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "C1") {
         cC1++;
@@ -61,3 +61,4 @@ else if (answer === "C7") {
 else if (answer === "C8") {
     alert("you chose C8. there are " + cC8 + " C8s in the array");
 }
+MyCounter();
